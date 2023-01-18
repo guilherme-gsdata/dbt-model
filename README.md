@@ -6,7 +6,7 @@ Tarefas:
 
 - Editar o arquivo de project X
 - Criar o arquivo de profile X
-- Criar os modelos base 
+- Criar os modelos base X
 - Criar o schema
 - Testar a execução
 - Conferir a transformação no DW
