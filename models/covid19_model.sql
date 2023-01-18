@@ -21,14 +21,14 @@ economy as (
         *
     from {{ ref('base_economy')}}
 
-    ),
+),
 index as (
 
     select
         *
     from {{ ref('base_index')}}
 
-    ),
+),
 
 epidemiology_join as (
 
@@ -83,6 +83,6 @@ epidemiology_join as (
     left join economy on epidemiology.location_key = economy.location_key
     left join index on epidemiology.location_key = index.location_key
 
-    )
+)
 
 select * from epidemiology_join
