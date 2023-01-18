@@ -34,5 +34,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   covid19_project:
     # Applies to all files under models/example/
-    example:
+    base:
       materialized: view
